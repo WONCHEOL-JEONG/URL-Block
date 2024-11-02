@@ -1,0 +1,17 @@
+{
+    "manifest_version": 3,
+    "name": "URL Blocker",
+    "version": "1.0",
+    "description": "Block and unblock specified URLs",
+    "permissions": [
+      "declarativeNetRequest",
+      "declarativeNetRequestWithHostAccess",
+      "storage"
+    ],
+    "background": {
+      "service_worker": "background.js"
+    },
+    "action": {
+      "default_popup": "popup.html"
+    }
+  }
